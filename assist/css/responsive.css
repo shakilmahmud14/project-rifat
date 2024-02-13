@@ -1,0 +1,85 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+	.header-top-content {
+		flex-direction: column;
+	}
+	.brants-info {
+		flex-direction: column;
+	}
+	.main-header-content {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.brand-logo {
+		width: 100%;
+	}
+	.f-contact-us {
+		display: block;
+		padding-top: 10px;
+		justify-content: flex-start;
+	}
+	.appointment {
+		display: none;
+	}
+	.sr-us-mobile {
+		padding-left: 0px !important;
+	}
+	.banner-carousel .content-box h6 {
+		font-size: 15px;
+	}
+	.banner-carousel .content-box h1 {
+		font-size: 50px;
+	}
+
+
+
+
+
+
+
+
+
+
+}
