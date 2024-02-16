@@ -1,9 +1,43 @@
 jQuery(document).ready(function(){
-  
+    jQuery("ul li:has(ul)").hover(function(){
+        jQuery(this).find(" > ul").slideDown("fast");
+    },function(){
+        jQuery(this).find(" > ul").slideUp("slow");
+    }
+    )
+    // upper menu js hare
+
+    jQuery(window).scroll(function(){
+        var scrolltop = jQuery(window).scrollTop();
+        if (scrolltop >= 240){
+            jQuery(".upper-menu").slideDown("slow");
+        } else {
+            jQuery(".upper-menu").slideUp("slow");
+        };
+        if (scrolltop >= 350) {
+            jQuery(".top-btn").show();
+        } else {
+            jQuery(".top-btn").hide();
+        }
+    })
+
+
+    jQuery('.stellarnav').stellarNav({
+                theme: 'dark',
+                breakpoint: 960,
+                position: 'right',
+                phoneBtn: '18009997788',
+                locationBtn: 'https://www.google.com/maps'
+            });
+
+
+    jQuery(".feature-block-one").hover(function(){
+        jQuery(".block-one-overly").addClass(".ovely");
+    })
+
 
     // work carousel js
     $(".banner-carousel").owlCarousel({
-        loop:true,
         margin:0,
         nav:true,
         dots:false,
@@ -37,7 +71,10 @@ jQuery(document).ready(function(){
 
 
 
-
+    // top button js start hare
+    jQuery(".top-btn").click(function(){
+        jQuery("html").animate({scrollTop : "0px"}, "fast");
+    });
 
 
 
