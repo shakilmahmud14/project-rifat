@@ -82,7 +82,14 @@ Small Screen - Mobile
 	.sr-us-mobile {
 		padding-left: 0px !important;
 	}
-
+	.upper-menu {
+		position: sticky !important;
+		top: -100px !important;
+	}
+	.upper-menu-item.menu {
+		display: none;
+	}
+/*	banner section resposive*/
 	.banner-carousel .content-box h6 {
 		font-size: 15px;
 	}
@@ -94,12 +101,35 @@ Small Screen - Mobile
 		padding: 150px 0px 70px 0px;
 	}
 
+/*about feature responsive*/
+	.about-sr-item h2 {
+		font-size: 30px;
+	}
+	
 
 
+	
+.inner-box {
+	flex-direction: column;
+	align-items: flex-start;
+}
+.author {
+	padding-left: 0px;
+	padding-top: 20px;
+}
+.inner {
+	padding: 15px 10px;
+}
 
-
-
-
+/*service area reaposive*/
+.service-title h2 {
+	font-size: 30px;
+}
+.service-carousel .owl-nav .owl-next, .service-carousel .owl-nav .owl-prev {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
 
 
 

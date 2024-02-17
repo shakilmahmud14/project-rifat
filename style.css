@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap')
 
 html {
 	scroll-behavior: smooth;
@@ -724,6 +725,9 @@ banner-section style start hare
 /*****************************
  section feature-area style end hare
 ******************************/
+/*****************************
+ about-feature style start hare
+******************************/
 .about-feature {
 	background: url(images/about-us.png) no-repeat;
 	padding: 100px 0px;
@@ -740,7 +744,6 @@ banner-section style start hare
 	font-size: 50px;
 	color: #22272B;
 	font-weight: 700;
-	width: 100%;
 }
 .about-sr-item ul li {
 	font-family: 'Rubik', sans-serif;
@@ -749,14 +752,188 @@ banner-section style start hare
 }
 .about-sr-item ul {
 	padding: 15px 0px;
+	margin-bottom: 54px;
 }
 .about-sr-item ul li i {
 	padding-right: 10px;
 	color: #9E0036;
 }
+.inner-box {
+		display: flex;
+		align-items: center;
+	}
+	.icon-box img {
+		width: 100%;
+	}
+	.inner {
+		background: #9E0036;
+		padding: 30px;
+		align-items: center;
+		position: relative;
+	}
+	.inner-content {
+		padding: 0px 30px;
+	}
+	.inner-content h4 {
+		width: 130px;
+		font-size: 20px;
+		font-weight: 500;
+		color: #fff;
+		margin: 0;
+		padding: 0;
+	}
+	.inner:before {
+		content: "";
+		display: block;
+		width: 10px;
+		height: 100%;
+		background: #FFDC78;
+		position: absolute;
+		top: 0;
+		right: -20px;
+	}
+	.author {
+		padding-left: 65px;
+		display: flex;
+		align-items: center;
+	}
+	.author-thumb {
+		padding: 5px;
+		border-radius: 50%;
+		border: 2px solid #9E0036;
+	}
+	.author-thumb img {
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+	}
+	.author-name h3 {
+		padding-left: 20px;
+		font-family: "Dancing Script", cursive;
+		font-size: 20px;
+	}
+		/*****************************
+	 about-feature style end hare
+	******************************/
+/****************************************/
+	/*****************************
+	 about-feature style end hare
+	******************************/
+.service-area-content {
+	padding: 120px 0px;
+}
+.service-carousel-area {
+	padding-top: 60px;
+}
+.service-title p {
+	color: #9E0036;
+	text-transform: uppercase;
+}
+.service-title h2 {
+	color: #22272B;
+	font-size: 50px;
+	font-weight: 700;
+}
+.service-carousel.owl-carousel img {
+	width: 100%;
+}
+.sec-img {
+	width: 100%;
+}
+.sec-img a img {
+	width: 380px !important;
+}
+.sec-img a {
+	margin: 0;
+}
+.sec-content {
+	width: 100%;
+	padding: 25px 30px;
+	border: 1px solid #ecebe3;
+	border-top: none;
+}
+.sec-content h4 a {
+	font-size: 20px;
+	color: #22272B;
+	font-weight: 500;
+}
+.sec-content p {
+	color: #717577;
+	padding: 15px 0px;
+}
+.sec-content a {
+	color:#22272B;
+	font-size: 14px;
+	font-weight: 500;
+}
+.sec-content a:hover {
+	color: #9E0036;
+}
+.sec-img {
+	position: relative !important;
+}
+.sr-icon-box {
+	position: absolute;
+	bottom: 45%;
+	left: -10px;
+	width: 86px;
+	background: #FBD778;
+}
+.sr-icon-box img {
+	width: 100%;
+	padding: 10px;
+}
+.service-item:hover .sr-icon-box {
+	background: #9E0036;
+	transition: all 0.9s ease;
+}
+.service-item:hover .sec-img img {
+	opacity: 0.7;
+  transform: scale(1.1);
+}
+.service-item {
+	overflow: hidden;
+}
+.sr-icon-box:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	width: 10px;
+	height: 10px;
+	display: block;
+	background: #FBD778;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 0%);
+}
+.service-item:hover .sr-icon-box:before{
+	background: #9E0036;
+	transition: all 0.9s ease;
+}
+.service-title h2 {
+	position: relative !important;
+}
+.service-carousel .owl-nav {
+	position: absolute;
+	top: -22%;
+	right: 0;
+}
+.service-carousel .owl-nav .owl-next, .service-carousel .owl-nav .owl-prev {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	background: #F7F6F2 !important;
+}
 
-
-
+.service-carousel .owl-nav .owl-prev:hover, .service-carousel .owl-nav .owl-next:hover {
+	color: #fff;
+	background: #9E0036 !important;
+	transition: all 500ms ease;
+}
 /**********/
 .top-btn {
 	background: #A40034;

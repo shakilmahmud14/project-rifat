@@ -64,6 +64,32 @@ jQuery(document).ready(function(){
                 }
             }
     });
+    $(".service-carousel").owlCarousel({
+        margin:0,
+        nav:true,
+        dots:false,
+        loop: true,
+        items: 3,
+        margin: 30,
+        active: true,
+        smartSpeed: 1000,
+        autoplay: 6000,
+        navText: [ '<span class="fa-solid fa-arrow-left-long"></span>', '<span class="fa-solid fa-arrow-right-long"></span>' ],
+       responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:3
+                },
+                1024:{
+                    items:3
+                }
+            }
+    });
 
 
 
