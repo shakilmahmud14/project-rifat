@@ -4,8 +4,12 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-
+.main-header.style-one .header-lower .outer-box .menu-are {
+	padding: 0px 0px!important;
+}
+.menu {
+	padding: 0px;
+}
 
 
 
@@ -21,7 +25,9 @@ Small Screen - Tablate
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-
+.main-header.style-one .header-lower .outer-box .menu-are {
+	padding: 0px;
+}
 
 
 
@@ -94,7 +100,7 @@ Small Screen - Mobile
 		font-size: 15px;
 	}
 	.banner-carousel .content-box h1 {
-		font-size: 40px;
+		font-size: 35px;
 		line-height: 55px;
 	}
 	.banner-carousel .slide-item {
@@ -120,7 +126,9 @@ Small Screen - Mobile
 .inner {
 	padding: 15px 10px;
 }
-
+.inner:before {
+	display: none;
+}
 /*service area reaposive*/
 .service-title h2 {
 	font-size: 30px;
@@ -130,7 +138,43 @@ Small Screen - Mobile
 	width: 40px;
 	height: 40px;
 }
+.service-carousel .owl-nav {
+	position: absolute;
+	top: -15%;
+	right: 0;
+  }
 
+.service-area-content {
+	padding: 50px 0px;
+}
 
+/*proudly area start hare*/
 
+.proudly-content-box {
+	padding: 30px 20px 15px 30px;
+}
+.counter-image {
+	width: 75px;
+	height: 75px;
+	padding-right: 10px;
+}
+.counter-image img {
+	width: 75px;
+	height: 75px;
+}
+.left-img {
+	height: 370px;
+}
+.couner-item {
+	justify-content: center;
+}
+.proudly-content-box .proudly-innerbox h2 {
+	font-size: 30px;
+}
+
+	/* proudly area end hare */
+
+	/* feature area two responsive start hare */
+.featureTwo-blockOne {
+	padding: 35px 0px 35px 35px;
 }
