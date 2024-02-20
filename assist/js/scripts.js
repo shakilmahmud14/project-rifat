@@ -156,6 +156,22 @@ jQuery(document).ready(function() {
         }
     });
 
+        $('[data-fancybox="gallery"]').fancybox({
+                thumbs : {
+                    autoStart : true
+                    
+                }
+            });
+
+
+
+
+
+
+
+
+
+
 
 
 

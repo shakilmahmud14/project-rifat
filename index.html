@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assist/css/bootstrap.css">
     <!-- font awsome file -->
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
-    <!-- humbar icon css -->
-    <!-- <link rel="stylesheet" href="assist/css/stb.dropdown.min.css"> -->
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="assist/css/light-box.css">
     <!-- lightbox css file -->
     <link rel="stylesheet" href="assist/css/slik-banner.css">
     <link rel="stylesheet" href="assist/css/global.css">
@@ -570,8 +570,8 @@
     		</div>
     		<div class="testimonial-carousel-area">
     			<div class="testimonial-carousel owl-theme owl-carousel">
-    				<div class="testimonial-block-one">
-    					<div class="testimonial-inner-box text-center">
+    				<div class="testimonial-block-one w-100">
+    					<div class="testimonial-inner-box text-center w-100">
     						<h4>Kevin Martin</h4>
     						<p>I was very impresed by the power wash resox services lorem ipsum is simply free text available used by copy typing refreshing.</p>
     						<div class="images-box">
@@ -687,7 +687,7 @@
     								<textarea placeholder="Your Massage"></textarea>
     							</div>
     							<div class="appointment text-center form-appointment">
-		                            <a type="submit" href="#">Make Appointment</a>
+		                            <button type="submit"> Make Appointment</button>
 		                            <div class="appoint-overly"></div>
 		                        </div>
     						</form>
@@ -698,7 +698,11 @@
     	</div>
     </section>
 			<!-----------------------------
-    		section startup start hare 
+    		section startup end hare 
+    		------------------------------->
+
+    		<!-----------------------------
+    		section-blog start hare 
     		------------------------------->
 
 	<section class="section-blog">
@@ -790,6 +794,105 @@
 			</div>
 		</div>
 	</section>
+
+		<!-----------------------------
+    		section-blog end hare 
+    	------------------------------->
+
+    	<!-----------------------------
+    		section-gallery start hare 
+    	------------------------------->
+	<section class="gallery">
+		<div class="container">
+			<div class="light-box">
+				<div class="light-box-content row">
+					<div class="light-box-item">
+						<img src="images/Physio_Eberle_16.png" alt="not found" />
+						<div class="light-box-overly">
+							<a href="images/Physio_Eberle_16.png" data-fancybox="gallery" data-caption="Wir bringen Sie in Bewegung"> <i class="fa-solid fa-plus"></i> </a>
+						</div>
+					</div>
+					<div class="light-box-item">
+						<img src="images/Physio_Eberle_1.png" alt="" />
+						<div class="light-box-overly">
+							<a href="images/Physio_Eberle_1.png" data-fancybox="gallery" data-caption="Wir bringen Sie in Bewegung"> <i class="fa-solid fa-plus"></i> </a>
+						</div>
+					</div>
+					<div class="light-box-item">
+						<img src="images/Physio_Eberle_25.png" alt="not found" />
+						<div class="light-box-overly">
+							<a href="images/Physio_Eberle_25.png" data-fancybox="gallery" data-caption="Wir bringen Sie in Bewegung"> <i class="fa-solid fa-plus"></i> </a>
+						</div>
+					</div>
+					<div class="light-box-item">
+						<img src="images/Physio_Eberle_14.png" alt="not found" />
+						<div class="light-box-overly">
+							<a href="images/Physio_Eberle_14.png" data-fancybox="gallery" data-caption="Wir bringen Sie in Bewegung"> <i class="fa-solid fa-plus"></i> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+			<!-----------------------------
+    		section-gallery end hare 
+    		------------------------------->
+    		<!-----------------------------
+    		section-book-us start hare 
+    		------------------------------->
+    <section class="book-us">
+    	<div class="container">
+    		<div class="book-us-content">
+    			<h2>Choose the best physio therapy for youself</h2>
+    			<div class="appointment text-center book-us-btn">
+		            <a type="submit" href="#">Make Appointment</a>
+		            <div class="appoint-overly"></div>
+		        </div>
+    		</div>
+    	</div>
+    </section>
+    	<!-----------------------------
+    		section-book-us start hare 
+    	------------------------------->
+
+    <footer class="footer-area">
+    	<div class="footer-overly">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-lg-3 col-md-6">
+    					<div class="footer-block-one">
+    						<div class="footer-innerbox">
+    							<a href="#"><img src="images/mobile-logo.png" alt=""></a>
+    							<p>There are many variatio of lorem ipsum available.</p>
+    							<ul>
+    								<li><i class="fa-solid fa-envelope"></i> <a href="#"> info@physiopraxis-eberle.de</a></li>
+    								<li><i class="fa-solid fa-location-dot"></i> <a href="#"> Marxstraße 16/1 78628 Rottweil</a></li>
+    							</ul>
+    							<div class="call-us-btn">
+    								<div class="call-icon">
+    									<i class="fa-solid fa-phone-volume"></i>
+    								</div>
+    								<div class="phn-number">
+    									<p>Call us anytime</p>
+    									<a href="#">0741 27069879</a>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="col-lg-3">
+    					<div class="footer-block-two">
+    						<h4>Links</h4>
+    						<ul>
+    							<li><i class="fa-solid fa-caret-right"></i> <a href="#">About Us</a></li>
+    							<li><i class="fa-solid fa-caret-right"></i> <a href="#">About Us</a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
     <div class="top-btn home-btn">
     	<i class="fa-solid fa-arrow-up"></i>
     </div>
@@ -804,7 +907,7 @@
     <!-- menu js file -->
     <script src="assist/js/stellarnav.js"></script>
     <!-- parallax-bg js file -->
-    <script src="assist/js/lightbox-plus-jquery.js"></script>
+    <script src="assist/js/light-box.js"></script>
     <!-- countdown js file -->
     <script src="assist/js/counter.js"></script>
     <!-- line progressbar js -->

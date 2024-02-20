@@ -1479,7 +1479,11 @@ banner-section style start hare
  *********************/
 
  /********************
- blog area style start hare
+ blog area style end hare
+ *********************/
+
+ /********************
+ startup area style start hare
  *********************/
 .start-up {
     padding: 100px 0px;
@@ -1678,8 +1682,17 @@ banner-section style start hare
     margin: auto;
     margin-top: 30px;
 }
+.form-appointment button {
+	background: transparent;
+	color: #fff;
+	font-weight: 500;
+}
  /********************
- blog area style end hare
+ startup area style end hare
+ *********************/
+
+ /********************
+ section-blog style start hare
  *********************/
 .section-blog {
     padding: 115px 0px 120px 0px;
@@ -1784,9 +1797,176 @@ banner-section style start hare
     font-size: 16px;
     font-weight: 500;
 }
+/*********************/
 
 
+.light-box {
+	padding-bottom: 100px;
+}
+.light-box .light-box-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.light-box-content .light-box-item:hover img {
+	transform: scale(1.1);
+}
+.light-box-content .light-box-item img {
+	transition: all 500ms ease;
+}
+.light-box .light-box-content .light-box-item {
+	width: 23%;
+	position: relative;
+	overflow: hidden;
+}
+.light-box-overly {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+}
+.light-box-overly a {
+	text-align: center;
+	display: block;
+}
+.light-box-overly a i {
+	margin: 0;
+	font-size: 18px;
+	padding: 25px;
+	background: #FFDC78;
+	color: #9E0036;
+	border-radius: 50%;
+	transition: all 800ms ease;
+	transform: scale(0);
+}
+.light-box-overly a:hover i {
+	background: #9E0036;
+	color: #FFDC78;
+}
+.light-box-content .light-box-item:hover .light-box-overly {
+	opacity: 1;
+}
+.light-box-content .light-box-item:hover .light-box-overly i {
+	transform: scale(1.0);
+}
+/********************
+ section-blog style end hare
+ *********************/
 
+
+.book-us {
+	padding: 40px;
+	background: #9E0036;
+}
+.book-us .book-us-content {
+	padding: 50px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.book-us .book-us-content h2 {
+	font-size: 34px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.book-us .book-us-content .book-us-btn {
+	background: #FFDC78;
+}
+.book-us .book-us-content .book-us-btn a {
+	color: #000;
+}
+.book-us .book-us-content .book-us-btn:hover a {
+	color: #fff;
+}
+/*book-us style end hare*/
+
+.footer-area {
+	background: url(images/footer-1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.footer-area .footer-overly {
+	width: 100%;
+	height: 100%;
+	padding: 50px 0px;
+	background: rgba(35, 40, 43, 0.9);
+}
+
+.footer-block-one .footer-innerbox a img{
+	width: 100%;
+}
+.footer-block-one .footer-innerbox p {
+	padding: 25px 0px;
+	color: #DDDDDD;
+	line-height: 35px;
+}
+.footer-block-one .footer-innerbox ul li {
+	padding: 10px 0px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-block-one .footer-innerbox ul li i {
+	padding-right: 10px;
+	color: #FFDC78;
+}
+.footer-block-one .footer-innerbox ul li a {
+	font-weight: 500;
+	color: #fff;
+}
+.footer-block-one .footer-innerbox ul li a:last-child {
+	font-size: 15px;
+}
+.footer-block-one .footer-innerbox ul li a:hover {
+	color: #9E0036;
+}
+.call-us-btn {
+	margin-top: 15px;
+	padding: 25px 15px;
+	background: #1F2327;
+	display: flex;
+	align-items: center;
+}
+.call-us-btn .call-icon {
+	padding: 20px 25px;
+	background: #9E0036;
+	border-radius: 50%;
+}
+.call-us-btn .call-icon i {
+	font-size: 18px;
+	color: #Fff;
+}
+.call-us-btn .phn-number {
+	padding-left: 15px;
+}
+.call-us-btn .phn-number p {
+	margin: 0;
+	padding: 0;
+}
+.call-us-btn .phn-number a {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+}
+.call-us-btn .phn-number a:hover {
+	color: #9E0036;
+}
+.footer-block-two {
+	padding-top: 20px;
+}
+.footer-block-two h4 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
 
 
 /**********/

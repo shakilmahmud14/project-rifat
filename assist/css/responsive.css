@@ -174,7 +174,68 @@ Small Screen - Mobile
 
 	/* proudly area end hare */
 
+/*	startup area responsive start hare*/
+.start-up .startup-inner-box h2 
+{
+	font-size: 35px;
+}
+.innerbox-block-three {
+    display: block;
+    background: #9E0036;
+    padding: 25px 0px;
+    align-items: center;
+    margin-top: 25px;
+}
+.innerbox-block-three img {
+	display: block;
+	margin: auto;
+}
+.startup-inner-boxTwo {
+	margin-top: 20px;
+    padding-left: 0px;
+}
+.form-appointment {
+	display: block;
+	width: 100%;
+}
+
+/*galler area responsive hare*/
+.light-box .light-box-content .light-box-item {
+	width: 50%;
+}
+/*blog area responsive*/
+.blog-area-content .blog-content-one h2 {
+	font-size: 35px;
+}
+
+/*book-us resonsive start hare */
+
+
+.book-us .book-us-content h2 {
+	font-size: 25px;
+	text-align: center;
+}
+.book-us {
+	padding: 10px 0px;
+}
+.book-us-btn {
+	display: block;
+	margin-top: 15px;
+}
+.book-us-content {
+	flex-direction: column;
+}
+ 
+/* testimonials area resposive*/
+.testimonial-carousel-area {
+	padding: 35px 25px 0px 25px;
+}
+
+
+
 	/* feature area two responsive start hare */
+}
+}
 .featureTwo-blockOne {
 	padding: 35px 0px 35px 35px;
 }
