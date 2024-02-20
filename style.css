@@ -1478,6 +1478,9 @@ banner-section style start hare
  testimonials style end hare
  *********************/
 
+ /********************
+ blog area style start hare
+ *********************/
 .start-up {
     padding: 100px 0px;
     background-image: url(images/startup-1.jpg);
@@ -1663,12 +1666,6 @@ banner-section style start hare
 .input-block-two .date {
     color: #AFB1B0;
 }
-.form-appointment {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-}
 .text-area textarea {
     margin-top: 20px;
     width: 100%;
@@ -1676,6 +1673,120 @@ banner-section style start hare
     padding: 10px 15px;
     height: 150px;
 }
+.form-appointment {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+ /********************
+ blog area style end hare
+ *********************/
+.section-blog {
+    padding: 115px 0px 120px 0px;
+    position: relative;
+}
+.section-blog::before {
+    position: absolute;
+    content: '';
+    background: #f8f7f3;
+    width: 100%;
+    height: 580px;
+    top: 0;
+    left: 0;
+}
+.blog-content-two {
+    padding-top: 30px;
+}
+.blog-content-two .blog-one {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+.blog-one .post-date {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #22272b;
+    line-height: 34px;
+    text-align: center;
+    padding: 3px 26px;
+    background-color: #FFDC78;
+}
+.blog-area-content .blog-content-one p {
+    color: #9E0036;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.blog-area-content .blog-content-one h2 {
+    color: #22272B;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.blog-one .blog-images {
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+}
+.blog-one .blog-images img {
+    width: 100%;
+    height: 300px;
+}
+.blog-one .blog-images:hover a img {
+    transform: scale(1.1);
+}
+.blog-one-content .post-author {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+.blog-one-content .post-author a:hover {
+    color: #9e0036;
+}
+.blog-one-content {
+    padding: 30px 35px 28px 35px;
+}
+.post-author .post-user {
+    align-items: center;
+    padding: 0px 10px;
+}
+.post-author .post-user i {
+    padding-right: 5px;
+    color: #9E0036;
+}
+.post-author .post-user a {
+    color: #717577;
+    text-transform: capitalize;
+}
+.post-content  a {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.post-content  a:hover {
+    color: #9e0036;
+}
+
+.post-content p {
+    color: #717577;
+    line-height: 34px;
+    padding: 20px 0px;
+}
+
+.post-content .readmore-btn {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
 
 
 /**********/

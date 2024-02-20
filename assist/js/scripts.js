@@ -81,10 +81,10 @@ jQuery(document).ready(function() {
                 items: 1,
             },
             600: {
-                items: 1
+                items: 2
             },
             800: {
-                items: 3
+                items: 2
             },
             1024: {
                 items: 3
@@ -147,8 +147,8 @@ jQuery(document).ready(function() {
             600: {
                 items: 1
             },
-            800: {
-                items: 3
+            750: {
+                items: 2
             },
             1024: {
                 items: 3
@@ -156,14 +156,15 @@ jQuery(document).ready(function() {
         }
     });
 
-    $('select').stbDropdown();
 
 
 
     // top button js start hare
-    jQuery(".home-btn").click(function() {
-       jQuery("html").animate({scrolltop: "0px"}, "fast")
-    });
+    $(".top-btn").on('click', function () {
+        $('html').animate({
+            scrollTop: 0
+        }, 800);
+     });
 
 
 
