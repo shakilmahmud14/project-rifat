@@ -1959,14 +1959,118 @@ banner-section style start hare
 	color: #9E0036;
 }
 .footer-block-two {
-	padding-top: 20px;
+	padding-top: 40px;
+	margin-left: 50px;
 }
 .footer-block-two h4 {
-	text-align: center;
 	font-size: 20px;
 	font-weight: 700;
 	color: #fff;
 }
+.footer-block-two ul {
+	margin-top: 42px;
+}
+.footer-block-two ul li {
+	padding: 10px 0px;
+	color: #ddd;
+	transition: all 500ms ease;
+}
+.footer-block-two ul li:hover {
+	color: #FFDC78;
+}
+.footer-block-two ul li a {
+	color: #ddd;
+}
+.footer-block-two ul li a:hover {
+	color: #fff;
+}
+.footer-block-four {
+	position: relative;
+  display: block;
+  overflow: hidden;
+  background: #1f2327;
+  margin-left: -30px;
+  margin-top: 20px;
+  padding: 34px 40px 40px 40px;
+}
+.footer-block-four i {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	color: #fff;
+	display: block;
+	font-size: 70px;
+	opacity: 0.3;
+}
+.footer-block-four .block-four-title h4 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.footer-block-four .block-four-content li {
+	padding-bottom: 15px;
+}
+.footer-block-four .block-four-content li span {
+	color: #dddd;
+	text-transform: uppercase;
+}
+.footer-block-four .block-four-content li h6 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+.footer-block-four .appointment {
+	padding: 10px 40px;
+	margin-top: 15px;
+	background: #FFDC78;
+}
+.footer-block-four .appointment:hover a {
+	color: #fff;
+}
+.footer-block-four .appointment a {
+	color: #000;
+}
+.footer-block-four .appointment .appoint-overly {
+	background: #9E0036;
+}
+
+
+.copyrigt-area {
+	padding: 20px 0px;
+	background: #1F2327;
+}
+
+.copyrigt-area .copyright-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0px;
+}
+.copyrigt-area .copyright-content p {
+	color: #fff;
+}
+.copyrigt-area .copyright-content p a {
+	color: #fff;
+}
+.copyrigt-area .copyright-content p a:hover {
+	color: #9E0036;
+}
+.copyright-content .social-list li a {
+	background: #22272b;
+}
+.copyright-content .social-list li a i {
+	color: #fff;
+}
+.copyright-content .social-list li a:hover {
+	background: #9E0036;
+}
+
+
+
+
+
+
 
 
 /**********/
